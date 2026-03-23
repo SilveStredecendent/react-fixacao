@@ -1,0 +1,44 @@
+/* Container individual */
+section, .component-container {
+  padding: 30px 0;
+  border-bottom: 2px solid var(--border);
+  width: 100%;
+}
+
+section:last-child {
+  border-bottom: none;
+}
+
+/* Estilo para botões de "Remover" */
+li button {
+  background-color: transparent;
+  color: var(--danger);
+  border: 1px solid var(--danger);
+  padding: 4px 10px;
+  font-size: 14px;
+}
+
+li button:hover {
+  background-color: var(--danger);
+  color: white;
+}
+
+/* Ajuste para o formulário de Cadastro Simples */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.cadastro-row {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.linha-estilizada {
+  border: 0;
+  border-top: 2px solid var(--border); /* Usa a variável que definimos antes */
+  margin: 20px 0;
+  width: 100%;
+}
